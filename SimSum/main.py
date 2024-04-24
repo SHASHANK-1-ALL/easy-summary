@@ -77,7 +77,8 @@ def run_training(args, dataset):
 
 
 
-dataset = WIKI_DOC
+# dataset = WIKI_DOC
+dataset = LEGAL_DATA
 args = parse_arguments()
 run_training(args, dataset)
 
